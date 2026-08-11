@@ -1,36 +1,118 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 💼 Portfolio — Nouhou Ismael Akapo
 
-## Getting Started
+> Portfolio personal de un desarrollador Fullstack Junior, con soporte multiidioma y fondo 3D animado.
 
-First, run the development server:
+**🔗 Ver en vivo:** https://portofolio-neon-eight-61.vercel.app/
+
+---
+
+## 🛠️ Tecnologías
+
+| Capa | Tecnología |
+|---|---|
+| Framework | Next.js 16 (App Router) |
+| Estilos | Tailwind CSS v4 + estilos inline |
+| 3D | Three.js + React Three Fiber |
+| Iconos | react-icons |
+| Idiomas | Sistema propio con React Context (sin librería externa) |
+| Despliegue | Vercel |
+
+---
+
+## 🚀 Cómo ejecutarlo en local
+
+### Requisitos
+
+- [Node.js](https://nodejs.org/) 20 o superior
+- Git
+
+### Pasos
 
 ```bash
+git clone https://github.com/IsmaelAkapo/Portofolio.git
+cd Portofolio
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Y abrir http://localhost:3000
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Otros comandos
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build   # compilar para producción
+npm run start   # servir la versión compilada
+npm run lint    # revisar el código
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🗂️ Estructura
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+src/
+├── app/
+│   ├── layout.js          → fuentes (Syne + Space Mono) y metadatos
+│   ├── page.js            → monta las secciones en orden
+│   └── globals.css        → variables de color y scroll suave
+├── components/
+│   ├── Hero.js            → portada, navbar fija y selector de idioma
+│   ├── Skills.js          → marquee + tecnologías por categoría
+│   ├── Projects.js        → tarjetas de proyectos
+│   ├── Contact.js         → email y redes
+│   └── ParticlesBackground.js  → partículas 3D con Three.js
+├── context/
+│   └── LanguageContext.js → estado del idioma y función t()
+└── locales/
+    ├── es.json            → español
+    ├── en.json            → inglés
+    └── fr.json            → francés
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🌍 Cómo funcionan los idiomas
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+No uso ninguna librería de i18n. `LanguageContext` guarda el idioma actual y expone una función `t()`:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```js
+const { t, lang, setLang } = useLanguage();
+
+<h1>{t("hero.tagline")}</h1>
+```
+
+Las claves son **planas**, con puntos en el nombre (`"skills.label"`), no objetos anidados. Si una clave no existe, `t()` devuelve la clave misma, así se ve enseguida qué falta por traducir.
+
+**Para añadir un texto nuevo:** añadir la misma clave en `es.json`, `en.json` y `fr.json`.
+
+---
+
+## ➕ Cómo añadir un proyecto
+
+Los proyectos están en el array `proyectos` al principio de `src/components/Projects.js`:
+
+```js
+{
+  id: "miproyecto",                                  // debe coincidir con la clave de traducción
+  titulo: "Mi Proyecto",
+  tech: ["React", "Node.js"],
+  github: "https://github.com/IsmaelAkapo/...",
+  demo: "https://...",                               // null si no está desplegado
+  imagen: "/proyectos/miproyecto.png",               // null si no hay captura
+  destacado: false,                                  // true = ocupa todo el ancho
+}
+```
+
+Después hay que añadir la descripción en los tres idiomas, con la clave `projects.<id>.desc`.
+
+- Si `demo` es `null`, el botón "Ver proyecto" y la etiqueta "En vivo" desaparecen solos.
+- Si `imagen` es `null`, sale un marcador con la inicial del proyecto.
+- Las capturas van en `public/proyectos/`.
+
+---
+
+## 📬 Contacto
+
+- **Email:** ismailnouhou23@gmail.com
+- **LinkedIn:** https://www.linkedin.com/in/nouhou-ismael-357b8b39a/
+- **GitHub:** https://github.com/IsmaelAkapo
