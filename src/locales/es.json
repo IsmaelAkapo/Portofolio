@@ -1,12 +1,12 @@
 {
-    "nav.about":"sobre mi",
+    "nav.about":"Sobre mí",
     "nav.skills":"Skills",
     "nav.projects":"Proyectos",
     "nav.contact":"Contacto",
 
     "hero.greeting":    "Hola, mi nombre es",
     "hero.tagline":     "Construyo cosas para la web.",
-    "hero.description": "Soy un desarrollador Fullstack Junior apasionado por construir aplicaciones web rápidas, accesibles y con propósito.Actualmente enfocado en aprender y crecer.",
+    "hero.description": "Soy un desarrollador Fullstack Junior apasionado por construir aplicaciones web rápidas, accesibles y con propósito. Actualmente enfocado en aprender y crecer.",
     "hero.cta":         "Ver mis proyectos",
 
     "skills.label":     "02 — Skills",

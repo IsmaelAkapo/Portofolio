@@ -157,19 +157,26 @@ export default function Hero() {
         display: "flex", flexDirection: "column",
         alignItems: "center", gap: "1.5rem"
       }}>
-        {["GitHub", "LinkedIn"].map(link => (
-          <a key={link} href="#" style={{
-            fontFamily: "var(--font-space-mono)",
-            fontSize: "0.65rem",
-            color: "#8892B0",
-            textDecoration: "none",
-            letterSpacing: "0.1em",
-            writingMode: "vertical-rl",
-            transition: "color 0.2s"
-          }}
+        {[
+          { nombre: "GitHub",   url: "https://github.com/IsmaelAkapo" },
+          { nombre: "LinkedIn", url: "https://www.linkedin.com/in/nouhou-ismael-357b8b39a/" },
+        ].map(({ nombre, url }) => (
+          <a key={nombre}
+            href={url}
+            target="_blank"
+            rel="noopener noreferrer" // es por seguridad al abrir enlaces en pestaña nueva
+            style={{
+              fontFamily: "var(--font-space-mono)",
+              fontSize: "0.65rem",
+              color: "#8892B0",
+              textDecoration: "none",
+              letterSpacing: "0.1em",
+              writingMode: "vertical-rl",
+              transition: "color 0.2s"
+            }}
             onMouseEnter={e => e.target.style.color = "#64FFDA"}
             onMouseLeave={e => e.target.style.color = "#8892B0"}
-          >{link}</a>
+          >{nombre}</a>
         ))}
         <div style={{ width: "1px", height: "80px", background: "#8892B0" }} />
       </div>
@@ -181,7 +188,7 @@ export default function Hero() {
         display: "flex", flexDirection: "column",
         alignItems: "center", gap: "1.5rem"
       }}>
-        <a href="mailto:tu@email.com" style={{
+        <a href="mailto:ismailnouhou23@gmail.com" style={{
           fontFamily: "var(--font-space-mono)",
           fontSize: "0.65rem",
           color: "#8892B0",
@@ -193,7 +200,7 @@ export default function Hero() {
           onMouseEnter={e => e.target.style.color = "#64FFDA"}
           onMouseLeave={e => e.target.style.color = "#8892B0"}
         >
-          tu@email.com
+          ismailnouhou23@gmail.com
         </a>
         <div style={{ width: "1px", height: "80px", background: "#8892B0" }} />
       </div>
