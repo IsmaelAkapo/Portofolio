@@ -16,6 +16,7 @@ const proyectos = [
     github: "https://github.com/IsmaelAkapo/Eduino",
     demo: null, // es null porque todavía no está desplegado
     imagen: null, // es null porque al no estar desplegado no se le puede hacer captura
+    nota: true, // es para mostrar el aviso de que se puede ejecutar en local, con las cuentas de prueba
     destacado: true, // es para que ocupe el ancho completo, al ser mi proyecto principal
   },
   {
@@ -182,6 +183,21 @@ function ProjectCard({ p, index, t }) {
       }}>
         {t(`projects.${p.id}.desc`)}
       </p>
+
+      {/* Aviso de ejecución local — solo en los proyectos que no tienen demo online
+          pero sí se pueden levantar con las instrucciones del README */}
+      {p.nota && (
+        <div style={{
+          borderLeft: "2px solid #64FFDA",
+          paddingLeft: "1rem",
+          fontFamily: "var(--font-space-mono)",
+          fontSize: "0.75rem",
+          lineHeight: 1.7,
+          color: "#8892B0",
+        }}>
+          {t(`projects.${p.id}.nota`)}
+        </div>
+      )}
 
       {/* Stack de tecnologías */}
       <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem", marginTop: "auto" }}>

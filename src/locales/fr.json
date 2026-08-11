@@ -22,6 +22,8 @@
     "projects.live":     "En ligne",
 
     "projects.eduino.desc":  "Mon projet de fin d'études : une plateforme web éducative gamifiée pour les enfants. Elle mêle apprentissage et jeu en mathématiques, langue, anglais et géographie à travers des tests et des exercices interactifs. Elle intègre des points, des succès, des classements et des mascottes virtuelles à débloquer, ainsi qu'un tableau de bord de contrôle parental permettant aux parents de suivre les progrès de leurs enfants.",
+    "projects.eduino.nota": "▸ Le projet se lance en local avec une seule commande : docker compose up. Les instructions complètes sont dans le README du dépôt. Comptes de test — parent : admin@eduino.com / demo1234 · enfant : nene / demo1234",
+
     "projects.bartido.desc": "Landing page pour un bar à smoothies naturels à Madrid. Design responsive avec animations au défilement, cartes à effet 3D et commande directe via WhatsApp. Déployée sur GitHub Pages.",
     "projects.bartidobar.desc": "Version installable de Bartido sous forme d'application web progressive (PWA). Elle intègre un service worker qui met les ressources en cache et permet un fonctionnement hors ligne, ainsi qu'un manifest pour l'installer sur mobile comme une app native.",
     "projects.daw.desc": "Recueil d'exercices JavaScript de ma formation en développement d'applications web : boucles, conditions, tableaux, chaînes, fonctions, objets, manipulation du DOM et événements. Il contient aussi des travaux complets comme une calculatrice, un panier d'achat, un CRUD et un gestionnaire de tâches.",

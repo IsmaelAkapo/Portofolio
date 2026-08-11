@@ -22,6 +22,8 @@
     "projects.live":     "Live",
 
     "projects.eduino.desc":  "My final degree project: a gamified educational web platform for children. It blends learning and play across maths, language, English and geography through interactive tests and exercises. It features points, achievements, leaderboards and virtual pets unlocked through progress, plus a parental control dashboard so parents can follow their children's progress.",
+    "projects.eduino.nota": "▸ You can run it locally with a single command: docker compose up. Full instructions are in the repository README. Test accounts — parent: admin@eduino.com / demo1234 · child: nene / demo1234",
+
     "projects.bartido.desc": "Landing page for a natural smoothie bar in Madrid. Responsive design with scroll animations, 3D tilt cards and direct ordering through WhatsApp. Deployed on GitHub Pages.",
     "projects.bartidobar.desc": "Installable version of Bartido as a progressive web app (PWA). It ships a service worker that caches assets and keeps the site working offline, plus a manifest so it can be installed on a phone like a native app.",
     "projects.daw.desc": "A collection of JavaScript exercises from my Web Application Development course: loops, conditionals, arrays, strings, functions, objects, DOM manipulation and events. It also includes complete practice builds such as a calculator, a shopping cart, a CRUD and a task manager.",
