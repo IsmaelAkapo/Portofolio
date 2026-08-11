@@ -27,5 +27,12 @@
     "projects.daw.desc": "Recopilación de ejercicios de JavaScript del ciclo de Desarrollo de Aplicaciones Web: bucles, condicionales, arrays, cadenas, funciones, objetos, manipulación del DOM y eventos. Incluye prácticas completas como una calculadora, un carrito de la compra, un CRUD y un gestor de tareas.",
     "projects.miproyectoweb.desc": "Mi primera página web estática, hecha al empezar con HTML.",
     "projects.messi.desc": "Repositorio de perfil de GitHub, con la información que aparece en mi página de usuario.",
-    "projects.despliegueweb.desc": "Repositorio de prácticas de despliegue web y autenticación con tokens de acceso de GitHub."
+    "projects.despliegueweb.desc": "Repositorio de prácticas de despliegue web y autenticación con tokens de acceso de GitHub.",
+
+    "contact.label":  "04 — Contacto",
+    "contact.title1": "¿Trabajamos",
+    "contact.title2": "juntos?",
+    "contact.text":   "Estoy buscando oportunidades como desarrollador junior y abierto a nuevos proyectos. Si crees que puedo encajar en tu equipo, o simplemente quieres saludar, escríbeme y te respondo.",
+    "contact.cta":    "Escríbeme",
+    "contact.footer": "Diseñado y construido por Nouhou Ismael Akapo"
 }

@@ -27,5 +27,12 @@
     "projects.daw.desc": "Recueil d'exercices JavaScript de ma formation en développement d'applications web : boucles, conditions, tableaux, chaînes, fonctions, objets, manipulation du DOM et événements. Il contient aussi des travaux complets comme une calculatrice, un panier d'achat, un CRUD et un gestionnaire de tâches.",
     "projects.miproyectoweb.desc": "Ma première page web statique, réalisée à mes débuts en HTML.",
     "projects.messi.desc": "Dépôt de profil GitHub, contenant les informations affichées sur ma page utilisateur.",
-    "projects.despliegueweb.desc": "Dépôt d'exercices sur le déploiement web et l'authentification par jetons d'accès GitHub."
+    "projects.despliegueweb.desc": "Dépôt d'exercices sur le déploiement web et l'authentification par jetons d'accès GitHub.",
+
+    "contact.label":  "04 — Contact",
+    "contact.title1": "On travaille",
+    "contact.title2": "ensemble ?",
+    "contact.text":   "Je recherche des opportunités en tant que développeur junior et je suis ouvert à de nouveaux projets. Si vous pensez que je peux avoir ma place dans votre équipe, ou si vous voulez simplement dire bonjour, écrivez-moi et je vous répondrai.",
+    "contact.cta":    "Écrivez-moi",
+    "contact.footer": "Conçu et développé par Nouhou Ismael Akapo"
   }
