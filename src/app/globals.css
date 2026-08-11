@@ -1,26 +1,60 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@keyframes marquee{
+   from { transform: translateX(0); }
+    to { transform: translateX(-33.33%); }
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+
+:root{
+    --color-orange: #E8500A;
+    --color-yellow: #A8A8A8;
+    --color-cyan: #64FFDA;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+html{
+  scroll-behavior: smooth;/* on l'utilise pour faire défiler la page en douceur lorsqu'on clique sur un lien d'ancrage */
 }
+
+section{
+  scroll-margin-top: 80px;/* es para que la navbar fija no tape el título de la sección al saltar desde el menú */
+}
+
+body{
+  font-family: var(--font-syne);
+  background-color:#0A192F;
+  color:#E8E8E8 ;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: var(--font-syne);
+  font-weight: 800;
+}
+
+code,pre{
+  font-family: var(--font-space-mono);
+}
+
+::selection{
+  background-color: #64FFDA;
+  color: #0A192F;
+}
+
+::-webkit-scrollbar{
+  width: 4px;
+}
+
+::-webkit-scrollbar-track{
+  background: #0A192F;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #64FFDA;
+}
+

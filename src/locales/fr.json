@@ -1,0 +1,31 @@
+  {
+    "nav.about":    "À propos",
+    "nav.skills":   "Skills",
+    "nav.projects": "Projets",
+    "nav.contact":  "Contact",
+
+    "hero.greeting":    "Bonjour, je m'appelle",
+    "hero.tagline":     "Je construis des choses pour le web.",
+    "hero.description": "Je suis un développeur Fullstack Junior passionné par la création d'applications web rapides, accessibles et utiles. Actuellement concentré sur l'apprentissage et la croissance.",
+    "hero.cta":         "Voir mes projets",
+
+    "skills.label":     "02 — Skills",
+    "skills.title1":    "Ma stack",
+    "skills.title2":    "technique",
+
+    "projects.label":   "03 — Projets",
+    "projects.title1":  "Ce que j'ai",
+    "projects.title2":  "construit",
+
+    "projects.viewDemo": "Voir le projet",
+    "projects.viewCode": "Voir le code",
+    "projects.live":     "En ligne",
+
+    "projects.eduino.desc":  "Mon projet de fin d'études : une plateforme web éducative gamifiée pour les enfants. Elle mêle apprentissage et jeu en mathématiques, langue, anglais et géographie à travers des tests et des exercices interactifs. Elle intègre des points, des succès, des classements et des mascottes virtuelles à débloquer, ainsi qu'un tableau de bord de contrôle parental permettant aux parents de suivre les progrès de leurs enfants.",
+    "projects.bartido.desc": "Landing page pour un bar à smoothies naturels à Madrid. Design responsive avec animations au défilement, cartes à effet 3D et commande directe via WhatsApp. Déployée sur GitHub Pages.",
+    "projects.bartidobar.desc": "Version installable de Bartido sous forme d'application web progressive (PWA). Elle intègre un service worker qui met les ressources en cache et permet un fonctionnement hors ligne, ainsi qu'un manifest pour l'installer sur mobile comme une app native.",
+    "projects.daw.desc": "Recueil d'exercices JavaScript de ma formation en développement d'applications web : boucles, conditions, tableaux, chaînes, fonctions, objets, manipulation du DOM et événements. Il contient aussi des travaux complets comme une calculatrice, un panier d'achat, un CRUD et un gestionnaire de tâches.",
+    "projects.miproyectoweb.desc": "Ma première page web statique, réalisée à mes débuts en HTML.",
+    "projects.messi.desc": "Dépôt de profil GitHub, contenant les informations affichées sur ma page utilisateur.",
+    "projects.despliegueweb.desc": "Dépôt d'exercices sur le déploiement web et l'authentification par jetons d'accès GitHub."
+  }

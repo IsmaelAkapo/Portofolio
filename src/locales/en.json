@@ -1,0 +1,31 @@
+  {
+    "nav.about":    "About",
+    "nav.skills":   "Skills",
+    "nav.projects": "Projects",
+    "nav.contact":  "Contact",
+
+    "hero.greeting":    "Hi, my name is",
+    "hero.tagline":     "I build things for the web.",
+    "hero.description": "I'm a passionate Junior Fullstack Developer focused on building fast, accessible, and purposeful web applications. Currentlyfocused on learning and growing.",
+    "hero.cta":         "View my projects",
+
+    "skills.label":     "02 — Skills",
+    "skills.title1":    "My tech",
+    "skills.title2":    "stack",
+
+    "projects.label":   "03 — Projects",
+    "projects.title1":  "What I have",
+    "projects.title2":  "built",
+
+    "projects.viewDemo": "View project",
+    "projects.viewCode": "View code",
+    "projects.live":     "Live",
+
+    "projects.eduino.desc":  "My final degree project: a gamified educational web platform for children. It blends learning and play across maths, language, English and geography through interactive tests and exercises. It features points, achievements, leaderboards and virtual pets unlocked through progress, plus a parental control dashboard so parents can follow their children's progress.",
+    "projects.bartido.desc": "Landing page for a natural smoothie bar in Madrid. Responsive design with scroll animations, 3D tilt cards and direct ordering through WhatsApp. Deployed on GitHub Pages.",
+    "projects.bartidobar.desc": "Installable version of Bartido as a progressive web app (PWA). It ships a service worker that caches assets and keeps the site working offline, plus a manifest so it can be installed on a phone like a native app.",
+    "projects.daw.desc": "A collection of JavaScript exercises from my Web Application Development course: loops, conditionals, arrays, strings, functions, objects, DOM manipulation and events. It also includes complete practice builds such as a calculator, a shopping cart, a CRUD and a task manager.",
+    "projects.miproyectoweb.desc": "My first static web page, built when I was starting out with HTML.",
+    "projects.messi.desc": "GitHub profile repository, holding the information shown on my user page.",
+    "projects.despliegueweb.desc": "Practice repository for web deployment and authentication with GitHub access tokens."
+  }
