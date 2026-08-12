@@ -4,6 +4,7 @@ import { useLanguage } from "@/context/LanguageContext";
 export default function Hero() {
   const {t,lang,setLang}=useLanguage();
   return (
+    
     <section style={{
       minHeight: "100vh",
       background: "#0C0C0C",
@@ -35,7 +36,7 @@ export default function Hero() {
 
         <div style={{ display: "flex", gap: "2rem" }}>
           {[
-            { key: "nav.about",    href: "#sobre-mí"  },
+            { key: "nav.about",    href: "#sobre-mi"  },
             { key: "nav.skills",   href: "#skills"    },
             { key: "nav.projects", href: "#proyectos" },
             { key: "nav.contact",  href: "#contacto"  },
