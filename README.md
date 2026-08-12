@@ -113,6 +113,6 @@ Después hay que añadir la descripción en los tres idiomas, con la clave `proj
 
 ## 📬 Contacto
 
-- **Email:** ismailnouhou23@gmail.com
+- **Email:** killuisma@gmail.com
 - **LinkedIn:** https://www.linkedin.com/in/nouhou-ismael-357b8b39a/
 - **GitHub:** https://github.com/IsmaelAkapo

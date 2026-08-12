@@ -189,7 +189,7 @@ export default function Hero() {
         display: "flex", flexDirection: "column",
         alignItems: "center", gap: "1.5rem"
       }}>
-        <a href="mailto:ismailnouhou23@gmail.com" style={{
+        <a href="mailto:killuisma@gmail.com" style={{
           fontFamily: "var(--font-space-mono)",
           fontSize: "0.65rem",
           color: "#8892B0",
@@ -201,7 +201,7 @@ export default function Hero() {
           onMouseEnter={e => e.target.style.color = "#64FFDA"}
           onMouseLeave={e => e.target.style.color = "#8892B0"}
         >
-          ismailnouhou23@gmail.com
+          killuisma@gmail.com
         </a>
         <div style={{ width: "1px", height: "80px", background: "#8892B0" }} />
       </div>

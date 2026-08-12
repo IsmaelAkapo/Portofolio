@@ -6,7 +6,7 @@ import { FiMail } from "react-icons/fi"; // es para el icono del sobre del email
 import { useLanguage } from "@/context/LanguageContext"; // es para acceder a la función de traducción
 
 // es mi información de contacto, en un solo sitio para no repetirla por el componente
-const EMAIL = "ismailnouhou23@gmail.com";
+const EMAIL = "killuisma@gmail.com";
 const LINKEDIN = "https://www.linkedin.com/in/nouhou-ismael-357b8b39a/";
 const GITHUB = "https://github.com/IsmaelAkapo";
 
