@@ -33,8 +33,8 @@ const proyectos = [
     titulo: "Bartidobar PWA",
     tech: ["PWA", "Service Worker", "JavaScript", "HTML"],
     github: "https://github.com/IsmaelAkapo/Bartidobar",
-    demo: null, // es null porque GitHub Pages no está activado en este repo
-    imagen: null,
+    demo: "https://ismaelakapo.github.io/Bartidobar/",
+    imagen: null, // pendiente: las animaciones al hacer scroll salen en blanco al capturarla
     destacado: false,
   },
   {
