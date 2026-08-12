@@ -20,8 +20,8 @@ weight:["400","700"],//es para especificar los pesos de la fuente que se van a c
 
 export const metadata={//es para definir los metadatos de la página, 
 // como el título que se muestra en la pestaña del navegador
-  title:"Nouhou Ismael Akapo-Fullstack Developper",
-  description:"Portofolio de Nouhou Ismael Akapo,Fullstack Developer.",
+  title:"Nouhou Ismael Akapo — Fullstack Developer",
+  description:"Portfolio de Nouhou Ismael Akapo, desarrollador fullstack junior. React, PHP, MySQL, Docker.",
 };
 
 

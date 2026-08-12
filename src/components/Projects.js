@@ -12,7 +12,7 @@ const proyectos = [
   {
     id: "eduino",
     titulo: "Eduino",
-    tech: ["JavaScript", "PHP", "HTML", "CSS", "Docker"],
+    tech: ["React", "PHP", "API REST", "MySQL", "Docker"],
     github: "https://github.com/IsmaelAkapo/Eduino",
     demo: null, // es null porque todavía no está desplegado
     imagen: null, // es null porque al no estar desplegado no se le puede hacer captura
@@ -35,42 +35,6 @@ const proyectos = [
     github: "https://github.com/IsmaelAkapo/Bartidobar",
     demo: "https://ismaelakapo.github.io/Bartidobar/",
     imagen: null, // pendiente: las animaciones al hacer scroll salen en blanco al capturarla
-    destacado: false,
-  },
-  {
-    id: "daw",
-    titulo: "Ejercicios DAW",
-    tech: ["JavaScript", "DOM", "HTML", "CSS"],
-    github: "https://github.com/IsmaelAkapo/daw_visual2Deswic",
-    demo: null,
-    imagen: null,
-    destacado: false,
-  },
-  {
-    id: "miproyectoweb",
-    titulo: "Mi Proyecto Web",
-    tech: ["HTML"],
-    github: "https://github.com/IsmaelAkapo/mi_proyecto_web",
-    demo: null,
-    imagen: null,
-    destacado: false,
-  },
-  {
-    id: "messi",
-    titulo: "Messi",
-    tech: ["Markdown", "GitHub"],
-    github: "https://github.com/IsmaelAkapo/Messi",
-    demo: null,
-    imagen: null,
-    destacado: false,
-  },
-  {
-    id: "despliegueweb",
-    titulo: "Despliegue Web",
-    tech: ["Git", "GitHub"],
-    github: "https://github.com/IsmaelAkapo/Despliegueweb",
-    demo: null,
-    imagen: null,
     destacado: false,
   },
 ];
@@ -180,6 +144,7 @@ function ProjectCard({ p, index, t }) {
         lineHeight: 1.7,
         color: "#8892B0",
         maxWidth: p.destacado ? "700px" : "none", // es para que el texto no se estire demasiado en el destacado
+        whiteSpace: "pre-line", // es para respetar los saltos de párrafo escritos en los locales
       }}>
         {t(`projects.${p.id}.desc`)}
       </p>

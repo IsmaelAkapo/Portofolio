@@ -34,15 +34,11 @@
     "projects.viewCode": "Ver código",
     "projects.live":     "En vivo",
 
-    "projects.eduino.desc":  "Mi Trabajo de Fin de Grado: una plataforma web educativa gamificada para niños. Combina aprendizaje y juego en matemáticas, lengua, inglés y geografía mediante tests y ejercicios interactivos. Incluye un sistema de puntos, logros, rankings y mascotas virtuales que se desbloquean al progresar, además de un panel de control parental para que los padres sigan la evolución de sus hijos.",
+    "projects.eduino.desc":  "Trabajo de Fin de Grado. Plataforma web educativa gamificada para niños: matemáticas, lengua, inglés y geografía mediante tests y ejercicios interactivos, con puntos, logros, rankings y mascotas virtuales, además de un panel de control parental.\n\nArquitectura desacoplada: frontend en React que consume una API REST en PHP sobre MySQL. Todo el entorno está containerizado — la aplicación y la base de datos se levantan con un solo comando (docker compose up).",
     "projects.eduino.nota": "▸ Se puede ejecutar en local con un solo comando: docker compose up. Las instrucciones están en el README del repositorio. Cuentas de prueba — padre: admin@eduino.com / demo1234 · niño: nene / demo1234",
 
     "projects.bartido.desc": "Landing page para un bar de batidos naturales en Madrid. Diseño responsive con animaciones al hacer scroll, tarjetas con efecto 3D y pedido directo por WhatsApp. Desplegada en GitHub Pages.",
     "projects.bartidobar.desc": "Versión instalable de Bartido como aplicación web progresiva (PWA). Incluye un service worker para cachear los recursos y funcionar sin conexión, y un manifest que permite instalarla en el móvil como una app nativa.",
-    "projects.daw.desc": "Recopilación de ejercicios de JavaScript del ciclo de Desarrollo de Aplicaciones Web: bucles, condicionales, arrays, cadenas, funciones, objetos, manipulación del DOM y eventos. Incluye prácticas completas como una calculadora, un carrito de la compra, un CRUD y un gestor de tareas.",
-    "projects.miproyectoweb.desc": "Mi primera página web estática, hecha al empezar con HTML.",
-    "projects.messi.desc": "Repositorio de perfil de GitHub, con la información que aparece en mi página de usuario.",
-    "projects.despliegueweb.desc": "Repositorio de prácticas de despliegue web y autenticación con tokens de acceso de GitHub.",
 
     "contact.label":  "04 — Contacto",
     "contact.title1": "¿Trabajamos",

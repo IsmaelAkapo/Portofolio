@@ -1,7 +1,7 @@
 "use client";
 
 import {
-  SiReact, SiJavascript, SiNodedotjs, SiPython,
+  SiReact, SiJavascript, SiNodedotjs,
   SiPhp, SiHtml5, SiCss, SiGit, SiGithub,
   SiDocker,
   SiMysql, SiTailwindcss
@@ -15,9 +15,7 @@ const skills = [
   { name: "CSS",          Icon: SiCss,              color: "#1572B6", cat: "frontend"  },
   { name: "Tailwind CSS", Icon: SiTailwindcss,      color: "#38B2AC", cat: "frontend"  },
   { name: "Node.js",      Icon: SiNodedotjs,        color: "#339933", cat: "backend"   },
-  { name: "Python",       Icon: SiPython,           color: "#3776AB", cat: "backend"   },
   { name: "PHP",          Icon: SiPhp,              color: "#777BB4", cat: "backend"   },
-  { name: "Java",         Icon: null,               color: "#007396", cat: "backend"   },
   { name: "Git",          Icon: SiGit,              color: "#F05032", cat: "devops"    },
   { name: "Docker",       Icon: SiDocker,           color: "#2496ED", cat: "devops"    },
   { name: "GitHub",       Icon: SiGithub,           color: "#ffffff", cat: "tools"     },
